@@ -1,17 +1,41 @@
-body{
-    background-color: #212529;
-}
-.bg-light-dark{
-    background-color: #283035;
-}
-
-#root{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+/* Fondo global oscuro */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #212529 !important;
+  color: white !important;
+  font-family: Arial, sans-serif;
 }
 
-.container{
-    flex: 1;
+/* Contenedor raíz de React */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
+/* Forzar a que el contenedor no herede fondo blanco de Bootstrap */
+.container {
+  flex: 1;
+  background-color: transparent !important;
+}
+
+/* Estilo de sección principal */
+.bg-light-dark {
+  background-color: #283035 !important;
+  padding: 2rem;
+  border-radius: 8px;
+  color: white !important;
+}
+
+/* Botones */
+.btn {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+/* Footer oscuro */
+footer {
+  background-color: #1c1f23 !important;
+  color: white !important;
 }
