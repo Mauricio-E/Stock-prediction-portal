@@ -7,18 +7,41 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Build y dependencias
 node_modules
 dist
 dist-ssr
 *.local
 
-# Editor directories and files
+# Python / Django / DRF
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+.env
+backend-drf/.env
+backend-drf/db.sqlite3
+backend-drf/**/__pycache__/
+venv/
+.env/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Editor / SO
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS / OneDrive
+~$*
+*.tmp
