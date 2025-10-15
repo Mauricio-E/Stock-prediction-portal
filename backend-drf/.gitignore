@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+.env
+
+# Node.js
+node_modules/
+dist/
+build/
+.vite/
+package-lock.json
+
+# Jupyter notebooks temporales
+*.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
